@@ -173,7 +173,7 @@
                         <outlet property="progressBar" destination="gSO-Sh-raZ" id="zf9-k6-Fhb"/>
                         <outlet property="progressLabel" destination="c8N-Jj-nkb" id="TPL-Zw-xea"/>
                         <outlet property="questionLabel" destination="GfI-ij-FWd" id="8hd-HB-zGm"/>
-                        <outlet property="scoreLabel" destination="c8N-Jj-nkb" id="MQc-zX-gTg"/>
+                        <outlet property="scoreLabel" destination="nFF-v2-kgB" id="Ei9-Zp-e7L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
