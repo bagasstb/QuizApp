@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class ViewController: UIViewController {
     
@@ -64,8 +65,10 @@ class ViewController: UIViewController {
         if pickedAnswer == correctAnswer {
             score = score + 1
             updateUI()
+            SVProgressHUD.showSuccess(withStatus: "Correct")
         } else {
             updateUI()
+            SVProgressHUD.showError(withStatus: "Wrong!")
         }
     }
     
