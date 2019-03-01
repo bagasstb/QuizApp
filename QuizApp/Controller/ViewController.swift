@@ -40,8 +40,8 @@ class ViewController: UIViewController {
     
     @IBAction func falsePressed(_ sender: UIButton) {
         pickedAnswer = false
-        nextQuestion()
         checkAnswer()
+        nextQuestion()
     }
     
     func updateUI() {
@@ -74,6 +74,7 @@ class ViewController: UIViewController {
     
     func startOver() {
         questionNumber = 0
+        score = 0
         questionLabel.text = allQuestion.list[0].questionText
         updateUI()
     }
